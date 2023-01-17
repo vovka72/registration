@@ -1,0 +1,46 @@
+.p1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 5%;
+
+}
+.p2{
+    padding: 20px;
+    border: 1px solid green;
+    width: 300px;
+    position: relative;
+}
+.fail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #D84F50;
+    position: absolute;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    left: 0;
+    visibility: hidden;
+}
+.accept{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #17B599;
+    position: absolute;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    left: 0;
+    visibility: hidden;
+}
+.w-100px{
+    width: 100px;
+}
